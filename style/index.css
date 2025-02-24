@@ -4,6 +4,14 @@
 
 @layer base {
   em {
-    @apply text-red-300;
+    @apply text-blue-200;
+  }
+}
+
+/* Set background colour to black */
+
+@layer components {
+  body {
+    @apply bg-black;
   }
 }

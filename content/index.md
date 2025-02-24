@@ -3,7 +3,7 @@
 Hello world, I'm _emphasised and red_.
 
 :::{div} 
-:class: text-blue-300
+:class: random-class
 
 Hello, I'm blue text!
 :::
