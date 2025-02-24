@@ -2,16 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+/* @layer base {
   em {
     @apply text-blue-200;
   }
+} */
+
+div {
+  @apply bg-green-500;
 }
 
-/* Set background colour to black */
-
-@layer components {
-  body {
-    @apply bg-black;
-  }
+em {
+  @apply text-red-500;
 }
+
