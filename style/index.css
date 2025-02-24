@@ -8,7 +8,7 @@
   }
 } */
 
-div {
+body {
   @apply bg-green-500;
 }
 
