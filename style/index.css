@@ -1,6 +1,4 @@
-@tailwind components;
-@tailwind utilities;
 
-  em {
-    @apply text-red-300;
-  }
+em {
+  background-color: black;
+}

@@ -11,7 +11,7 @@ project:
 site:
   template: book-theme
   options:
-    style: ./style/index.css
+    style: /style/index.css
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
