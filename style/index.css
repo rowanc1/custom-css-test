@@ -1,18 +1,6 @@
-@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* @layer base {
   em {
-    @apply text-blue-200;
+    @apply text-red-300;
   }
-} */
-
-body {
-  @apply bg-green-500;
-}
-
-em {
-  @apply text-red-500;
-}
-
