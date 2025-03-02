@@ -15,4 +15,3 @@ module.exports = {
   plugins: [require('@tailwindcss/typography')],
   safelist: mystTheme.safeList,
 };
-
