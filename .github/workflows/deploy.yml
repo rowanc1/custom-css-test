@@ -39,6 +39,12 @@ jobs:
         run: myst -v
       - name: Build HTML Assets
         run: myst build --html
+      - name: Add Cache-Control Headers
+        run: |
+          echo '/*' > _build/html/.headers
+          echo '  Cache-Control: no-cache, no-store, must-revalidate' >> _build/html/.headers
+          echo '  Pragma: no-cache' >> _build/html/.headers
+          echo '  Expires: 0' >> _build/html/.headers
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
