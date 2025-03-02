@@ -1,8 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: d04144fa-b1c2-465b-89ee-ccd50f3057f8
-  # title:
+  title: test custom css
   # description:
   # keywords: []
   # authors: []
@@ -11,7 +10,7 @@ project:
 site:
   template: book-theme
   options:
-    style: ./style/output.css
+    style: style/output.css
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
