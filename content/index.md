@@ -3,7 +3,7 @@
 Hello world, I'm _emphasised and red_.
 
 :::{div} 
-:class: bg-green-500
+:class: bg-blue-500
 
-Hello, I'm blue text!
+Hello, I'm blue text!, this time actually blue
 :::
