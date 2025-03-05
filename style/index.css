@@ -1,6 +1,0 @@
-@tailwind components;
-@tailwind utilities;
-
-  em {
-    @apply text-red-300;
-  }
