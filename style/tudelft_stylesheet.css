@@ -1,6 +1,4 @@
-em {
-    background: black;
-  }
+
 
 :root {
     --tud-raspberry: rgb(165,0,52);
@@ -81,6 +79,10 @@ em {
     --tud-darkBlue: #c1e3ff;
     --tud-darkBlue-min: #c1e3ff10;
     --tud-darkBlue-mid: #c1e3ff25;
+  }
+
+  em {
+    background: var(--tud-cyan-min);
   }
 
   html {
