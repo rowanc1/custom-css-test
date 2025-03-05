@@ -1,6 +1,6 @@
 # TUDelft stylesheet
 
-_test on this page _ 
+_test on this page_ 
 
 (admonitions)=
 # Admonitions
