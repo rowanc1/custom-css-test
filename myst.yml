@@ -16,7 +16,7 @@ project:
     - file: second.md
     - title: Content
       children:
-        - file: content\content.md
+        - file: content\contentpage.md
     
 site:
   template: book-theme
